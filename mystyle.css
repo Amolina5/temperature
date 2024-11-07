@@ -1,0 +1,11 @@
+#weather{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border:1px black;
+    border-radius: 20px;
+}
+
+.cold{
+    background-color: indianred;
+}
