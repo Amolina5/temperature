@@ -1,4 +1,8 @@
-body {
+.header-img{
+  background-image: url(.theyeshivaworld.com/wp-content/uploads/2019/03/heat-cold.jpg)
+}
+
+ body {
     background-color: #007bb0;
     font-family: Arial, sans-serif;
   }
@@ -31,3 +35,26 @@ body {
     font-size: 1.2em;
     border-radius: 5px;
   }
+  /* thermometer attempt */
+
+  .thermometer {
+    height: 200px;
+    width: 30px;
+    background-color: gray;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .mercury {
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: red;
+    transition: height .5s;
+  }
+  
+  .thermometer:hover .mercury {
+    height: 70%;
+  }
+  
